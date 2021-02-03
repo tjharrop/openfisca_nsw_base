@@ -23,7 +23,7 @@ setup(
         ("share/openfisca/openfisca_nsw_base", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
-        "openfisca-core @ git+ssh://git@github.com/tjharrop/openfisca-core.git#egg=openfisca-core",
+        "openfisca-core @ git+https://github.com/tjharrop/openfisca-core.git#egg=openfisca-core",
         ],
     extras_require = {
         "dev": [
